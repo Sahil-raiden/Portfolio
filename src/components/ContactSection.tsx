@@ -36,7 +36,7 @@ export default function ContactSection({ onSubmit }: ContactProps) {
 
             {/* Form container */}
             <div className="relative z-10 max-w-4xl mx-auto px-4">
-                <Card className="bg-white/5 backdrop-blur-lg shadow-xl">
+                <Card className="bg-white/5 backdrop-blur-lg shadow-none border-none">
                     <CardHeader>
                         <CardTitle className="text-white flex items-center gap-2">
                             <Contact2 className="text-lime-500 h-5 w-5 animate-pulse" />

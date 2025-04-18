@@ -14,7 +14,7 @@ import { leadershipList } from '@/components/data/portfolioData';
 export default function LeadershipSection() {
     return (
         <Section id="leadership" data-aos="fade-left">
-            <Card className="bg-transparent backdrop-blur-lg border-none shadow-none">
+            <Card className="bg-transparent backdrop-blur-lg shadow-none border-none">
                 <CardHeader>
                     <CardTitle className="text-white flex items-center gap-2">
                         <Users className="text-lime-500 h-5 w-5 animate-pulse" />
@@ -29,7 +29,7 @@ export default function LeadershipSection() {
                     {leadershipList.map((item, idx) => (
                         <div
                             key={idx}
-                            className="bg-white/[0.08] hover:bg-white/[0.12] backdrop-blur-md rounded-lg px-4 py-3 transition-all duration-300 ease-in-out hover:shadow-[0_0_15px_rgba(132,204,22,0.5)]"
+                            className="bg-white/5 backdrop-blur-md rounded-lg px-4 py-3 transition hover:scale-105 hover:shadow-[0_0_12px_#00dd00]/30"
                         >
                             <p className="text-sm text-white">{item}</p>
                         </div>
